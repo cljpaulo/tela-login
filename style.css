@@ -112,3 +112,18 @@ form .btn-login {
     transform: scale(1);
   }
 }
+
+/* AO CLICAR NO BOTÃO, SUMIR O FORM */
+
+.form-hide {
+  animation: down 500ms forwards;
+}
+
+@keyframes down {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
